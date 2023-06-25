@@ -1,0 +1,253 @@
+.bg-container {
+    height: 100vh;
+    background: linear-gradient(to right, #ff706c, #ffbc6d);
+}
+
+.navbar-brand,
+nav-link-title {
+    padding-right: 10%;
+    margin: 1%;
+}
+
+.navbar-nav {
+    padding-left: 10%;
+}
+
+.nav-link-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-link-download {
+    border: 2px solid;
+
+}
+
+.carousel-img {
+    background-size: cover;
+    height: 80vh;
+}
+
+.carousel-caption,
+d-none d-md-block {
+    padding-left: 20%;
+}
+
+.carousel-heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10%;
+
+}
+
+.Download-btn {
+    border: 0;
+    background-color: #fe7169;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 100px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.Download-btn:hover {
+    cursor: pointer;
+    background-color: rgb(35, 206, 149);
+}
+
+.about-page-container {
+    color: black;
+    margin-right: 30%;
+}
+
+.watch {
+    width: 10px;
+    margin-left: 65%;
+    margin-top: -20%;
+}
+
+.home-second-bg {
+    height: 250px;
+    background-color: #ebf0ec;
+}
+
+.home-second-bg-card {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.home-second-bg-card-img {
+    margin-right: 20px;
+    height: 50px;
+
+}
+
+.about-page-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-page-container {
+    width: 600px;
+    margin-top: 0;
+}
+
+.best-features-bg {
+    background-color: #ebf0ec;
+
+}
+
+.Watch-our-video-btn {
+    background-color: #fe7169;
+    border: 0;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.Watch-our-video-btn:hover {
+    cursor: pointer;
+    background-color: rgb(35, 206, 149);
+}
+
+.best-features-heading-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.best-features-title-card {
+    width: 600px;
+}
+
+.best-features-details-card {
+    background: white;
+    border-radius: 6px;
+    color: black;
+    padding-inline-start: 16px;
+    width: 220px;
+    overflow: hidden;
+    transition: .6s;
+    transform: translate(0);
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+}
+
+.best-features-details-card:hover {
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.icon-img {
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+
+.how-it-words-page-btn {
+    background-color: #fe7169;
+    border: 2px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.how-it-words-page-btn:hover {
+    background-color: rgb(35, 206, 149);
+}
+
+.workpara {
+    text-align: justify;
+    padding-right: 20%;
+}
+
+.lovelypara {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.team-img:hover {
+    cursor: pointer;
+    opacity: 0.3;
+    background: turquoise
+}
+
+.lovely-team-members-bg {
+    text-align: center;
+    height: 400px;
+}
+
+.team-img {
+    height: 120px;
+}
+
+.contact-us-bg {
+    background: linear-gradient(to right, #ff706c, #ffbc6d);
+    height: 120vh;
+}
+
+.contact-us-heading {
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-us-card {
+    background-color: #ffffff;
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullname {
+    padding-right: 100%;
+    margin-bottom: -15%;
+    font-weight: bold;
+    margin-right: 10%;
+    text-align: start;
+}
+
+.email {
+    padding-right: 100%;
+    margin-bottom: -15%;
+    font-weight: bold;
+    margin-right: 10%;
+    text-align: start;
+}
+
+.subject {
+    padding-right: 100%;
+    margin-bottom: -15%;
+    font-weight: bold;
+    margin-right: 10%;
+    text-align: start;
+}
+
+.form-btn {
+    background-color: #fe7169;
+    border: 0;
+    padding: 10px;
+    width: 150px;
+}
+
+.line-height {
+    padding: 8px;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+}

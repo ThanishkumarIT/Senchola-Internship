@@ -1,0 +1,54 @@
+body {
+    background: url(image/b1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.registration-form{
+    width: 500px;
+    margin: 35px auto;
+    padding: 10px 20px 30px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border-radius: 8px;
+}
+
+.registration-form h1{
+    text-align: center;
+    color: rgb(4, 238, 199);
+}
+
+.registration-form label{
+    display: block;
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.0em;
+    border:1px solid #006D77;
+    box-shadow: 2px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 5px 0px 15px;
+    background-color:azure;
+}
+input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.btn{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(209, 202, 236);
+    font-size: 20px;
+    color: rgb(163, 8, 8);
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor:pointer;
+    box-shadow: 2px;
+
+}
