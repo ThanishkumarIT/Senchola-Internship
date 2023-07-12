@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Amazonlogo.png">
+    <title>Amazon Product Details</title>
+    <link rel="stylesheet" href="Amazon product details-6.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  </head>
+  <body>
+    <nav>
+      <div class="left dflex">
+        <a href="#"><img src="images/amazon1.png" alt="logo" class="logo" /><span>.in</span></a>
+        <div class="item">
+          <i class="fa fa-map-marker me"></i>
+          <h5>enter your address</h5>
+        </div>
+      </div>
+      <div class="searchBox dflex">
+        <div class="box">
+          <div class="dflex">
+            <button type="submit" class="all">All<i class="fa fa-sort-desc"></i>
+            </button>
+            <input type="text">
+            <button type="submit" class="search">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right dflex">
+        <div class="item">
+          <i class="fa fa-flag"></i><i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="item">
+          <a href="E:\Front-End Development\Senchola Internship\Task-8\Amazon login\Amazon login form.html"><b>Login</b></a>
+        </div>
+      </div>
+    </nav>
+    <nav class="subnavigation">
+      <ul class="submenu">
+        <a href="#">
+          <li>Amazon Mini Tv</li>
+        </a>
+        <a href="#">
+          <li>Sell</li>
+        </a>
+        <a href="E:\Front-End Development\Senchola Internship\Task-8\Amazon products\Amazon products.html">
+          <li>Products</li>
+        </a>
+      </ul>
+    </nav>
+
+    <!--Amazon Product details-->
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="images/Lenovo IdeaPad-1.jpg">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="images/Lenovo IdeaPad-2.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Lenovo IdeaPad-3.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Lenovo IdeaPad-4.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Lenovo IdeaPad-5.jpg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="pname">Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen 15.6" (39.62cm) FHD Thin & Light Laptop (8GB/512GB)</div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <div class="price">Rs.50,000/-</div>
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number">
+            </div>
+            <div class="btn-box">
+                <a href="#"><button class="buy-btn">Buy Now</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-about">
+        <h2>About the Laptop</h2>
+            <li>Processor: 12th Gen Intel Core i5-1235U | Speed: 10 Cores (2xP-core 1.3/4.4GHz, 8xE-core 0.9/3.3GHz) | 12Threads | 12MB Cache</li>
+            <li>Display: 15.6" FHD (1920x1080)| TN Technology | 250Nits Brightness | Anti Glare</li>
+            <li>Memory and Storage: 8GB RAM DDR4-3200 Upgradable Up to 16GB | 512 GB SSD</li>
+            <li>OS and Software: Windows 11 Home 64 | Office Home and Student 2021 | Xbox GamePass Ultimate 3-month subscription*</li>
+            <li>Design: 4 side narrow bezel | 1.99 cm Thin & 1.63 kg Light || Smart Learning Features : Lenovo Aware | Whisper Voice | Eye Care</li>
+            <li>Battery Life: 3-Cell 45Wh | Upto 6 Hours | Rapid Charge (Up to 80% in 1 Hour)</li>
+            <li>Camera: HD 720p with Privacy Shutter | Fixed Focus | Integrated Dual Array Microphone || Audio: 2x 1.5W Stereo Speakers | HD Audio | Dolby Audio</li>
+    </div>
+
+
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+</body>
+</html>
