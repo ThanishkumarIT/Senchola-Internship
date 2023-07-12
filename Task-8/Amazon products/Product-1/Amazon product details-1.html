@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Amazonlogo.png">
+    <title>Amazon Product Details</title>
+    <link rel="stylesheet" href="Amazon product details-1.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  </head>
+  <body>
+    <nav>
+      <div class="left dflex">
+        <a href="#"><img src="images/amazon1.png" alt="logo" class="logo" /><span>.in</span></a>
+        <div class="item">
+          <i class="fa fa-map-marker me"></i>
+          <h5>enter your address</h5>
+        </div>
+      </div>
+      <div class="searchBox dflex">
+        <div class="box">
+          <div class="dflex">
+            <button type="submit" class="all">All<i class="fa fa-sort-desc"></i>
+            </button>
+            <input type="text">
+            <button type="submit" class="search">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right dflex">
+        <div class="item">
+          <i class="fa fa-flag"></i><i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="item">
+          <a href="E:\Front-End Development\Senchola Internship\Task-8\Amazon login\Amazon login form.html"><b>Login</b></a>
+        </div>
+      </div>
+    </nav>
+    <nav class="subnavigation">
+      <ul class="submenu">
+        <a href="#">
+          <li>Amazon Mini Tv</li>
+        </a>
+        <a href="#">
+          <li>Sell</li>
+        </a>
+        <a href="E:\Front-End Development\Senchola Internship\Task-8\Amazon products\Amazon products.html">
+          <li>Products</li>
+        </a>
+      </ul>
+    </nav>
+
+    <!--Amazon Product details-->
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="images/Samsung Galaxy A54-1.jpg">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="images/Samsung Galaxy A54-2.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Samsung Galaxy A54-3.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Samsung Galaxy A54-4.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Samsung Galaxy A54-5.jpg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="pname">Samsung Galaxy A54 5G (Awesome Graphite, 8GB, 256GB Storage)</div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <div class="price">Rs.45,000/-</div>
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number">
+            </div>
+            <div class="btn-box">
+                <a href="#"><button class="buy-btn">Buy Now</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-about">
+        <h2>About the Mobile</h2>
+            <li>50MP(OIS)+12MP+5MP Triple camera setup - 50MP (F1.8) Main Camera with OIS + 12MP (F2.2) Ultra wide camera + 5MP (F2.4) depth camera | 32MP (F2.2) front camera</li>
+            <li>16.31 centimeters (6.4-inch) FHD+ Super AMOLED display, FHD+ resolution with 1080 x 2340 pixels , 401 PPI with 16M colours</li>
+            <li>Android 13, v13.0 operating system with Exynos1380 2.4GHz,2GHz Octa-Core processor</li>
+            <li>A54 5G has an IP67 certification and Gorilla Glass 5 (front & back) for carefree usage</li>
+            <li>Premium design experience with a metal camera deco</li>
+            <li>5000 mAh battery (Non-removable) with Super Fast Charging</li>
+            <li>Flagship inspired camera features like Nightography, AI Remaster, Object Eraser etc.</li>
+            <li>Enhanced 1000 nits(HBM) screen with Vision Booster</li>
+    </div>
+
+
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+</body>
+</html>

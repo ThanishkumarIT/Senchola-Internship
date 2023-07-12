@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Amazonlogo.png">
+    <title>Amazon Product Details</title>
+    <link rel="stylesheet" href="Amazon product details-7.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  </head>
+  <body>
+    <nav>
+      <div class="left dflex">
+        <a href="#"><img src="images/amazon1.png" alt="logo" class="logo" /><span>.in</span></a>
+        <div class="item">
+          <i class="fa fa-map-marker me"></i>
+          <h5>enter your address</h5>
+        </div>
+      </div>
+      <div class="searchBox dflex">
+        <div class="box">
+          <div class="dflex">
+            <button type="submit" class="all">All<i class="fa fa-sort-desc"></i>
+            </button>
+            <input type="text">
+            <button type="submit" class="search">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right dflex">
+        <div class="item">
+          <i class="fa fa-flag"></i><i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="item">
+          <a href="E:\Front-End Development\Senchola Internship\Task-8\Amazon login\Amazon login form.html"><b>Login</b></a>
+        </div>
+      </div>
+    </nav>
+    <nav class="subnavigation">
+      <ul class="submenu">
+        <a href="#">
+          <li>Amazon Mini Tv</li>
+        </a>
+        <a href="#">
+          <li>Sell</li>
+        </a>
+        <a href="E:\Front-End Development\Senchola Internship\Task-8\Amazon products\Amazon products.html">
+          <li>Products</li>
+        </a>
+      </ul>
+    </nav>
+
+    <!--Amazon Product details-->
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="images/ASUS Vivobook 15-1.jpg">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="images/ASUS Vivobook 15-2.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/ASUS Vivobook 15-3.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/ASUS Vivobook 15-4.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/ASUS Vivobook 15-5.jpg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="pname">ASUS Vivobook 15, Intel Celeron N4020, 15.6" (39.62 cms) HD, Thin and Light Laptop (8GB/512GB SSD)</div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <div class="price">Rs.45,000/-</div>
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number">
+            </div>
+            <div class="btn-box">
+                <a href="#"><button class="buy-btn">Buy Now</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-about">
+        <h2>About the Laptop</h2>
+            <li>Processor: Intel Celeron N4020 Processor Laptop 1.1 GHz (4M Cache, up to 2.8 GHz, 2 cores)</li>
+            <li>Memory: 8GB DDR4 SO-DIMM with | Storage: 512GB M.2 NVMe PCIe 3.0 SSD</li>
+            <li>Display: 15.6-inch, HD (1366 x 768) 16:9 aspect ratio, 60Hz refresh rate, 45% NTSC color gamut, Anti-glare display</li>
+            <li>Graphics: Integrated Intel UHD Graphics</li>
+            <li>Keyboard: Backlit Chiclet Keyboard with Num-key</li>
+            <li>Operating System: Windows 11 Home with lifetime validity | Software Included: Pre-Installed Office Home and Student 2021 | 1-Year McAfee Anti-Virus</li>
+            <li>Design: 1.99 cm Thin | Thin and Light Laptop | 1.80 kg weight | 37WHrs, 2S1P, 2-cell Li-ion | Up to 6 hours battery life ;Note: Battery life depends on conditions of usage</li>
+    </div>
+
+
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+</body>
+</html>

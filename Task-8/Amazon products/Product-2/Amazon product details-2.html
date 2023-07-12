@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Amazonlogo.png">
+    <title>Amazon Product Details</title>
+    <link rel="stylesheet" href="Amazon product details-2.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  </head>
+  <body>
+    <nav>
+      <div class="left dflex">
+        <a href="#"><img src="images/amazon1.png" alt="logo" class="logo" /><span>.in</span></a>
+        <div class="item">
+          <i class="fa fa-map-marker me"></i>
+          <h5>enter your address</h5>
+        </div>
+      </div>
+      <div class="searchBox dflex">
+        <div class="box">
+          <div class="dflex">
+            <button type="submit" class="all">All<i class="fa fa-sort-desc"></i>
+            </button>
+            <input type="text">
+            <button type="submit" class="search">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right dflex">
+        <div class="item">
+          <i class="fa fa-flag"></i><i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="item">
+          <a href="E:\Front-End Development\Senchola Internship\Task-8\Amazon login\Amazon login form.html"><b>Login</b></a>
+        </div>
+      </div>
+    </nav>
+    <nav class="subnavigation">
+      <ul class="submenu">
+        <a href="#">
+          <li>Amazon Mini Tv</li>
+        </a>
+        <a href="#">
+          <li>Sell</li>
+        </a>
+        <a href="E:\Front-End Development\Senchola Internship\Task-8\Amazon products\Amazon products.html">
+          <li>Products</li>
+        </a>
+      </ul>
+    </nav>
+
+    <!--Amazon Product details-->
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="images/Vivo Y56-1.jpg">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="images/Vivo Y56-2.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Vivo Y56-3.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Vivo Y56-4.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="images/Vivo Y56-5.jpg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="pname">Vivo Y56 5G (Black Engine, 8GB RAM, 128GB Storage) </div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <div class="price">Rs.40,000/-</div>
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number">
+            </div>
+            <div class="btn-box">
+                <a href="#"><button class="buy-btn">Buy Now</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-about">
+      <h2>About the Mobile</h2>
+            <li>Our innovative Extended RAM 3.0 technology draws up to 8 GB from ROM to add to RAM. Feel free to record and save those sweet moments in your
+               life with the generous 128 GB storage, expandable by up to 1 TB to suit your needs.</li>
+            <li>Y56 5G comes with a 16.72cm (6.58-inch) HD+ Incelldisplay that delivers an immersive large view. At FHD+ resolution of 
+              2408 × 1080, colors are vibrant and every detail comes alive.</li>
+            <li>Fitted with a 50 MP main camera, Y56 5G captures much more details. Whether it's bright or dark, trust our outstanding image processing to deliver ultra-sharp images full of intricacies.</li>
+            <li>This massive 5000 mAh(TYP) battery provides long-lasting endurance and recharges quickly with 18W Fast Charge. And to keep the charged battery running for a longer period, the MediaTek 5G Ultra Save
+               technology works at the system level to reduce the power consumed by the processor. You're empowered to stay connected.</li>
+            <li>Dual 50MP+2MP Rear Camera | 16MP Selfie Camera</li>
+            <li>16.72 cm (6.58" inch) FHD+ LCD Display</li>
+            <li>Memory & SIM: 8GB RAM | 128GB internal memory</li>
+            <li>18W fast charging with 5000 mAh battery</li>
+    </div>
+
+
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+</body>
+</html>
